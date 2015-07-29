@@ -1,0 +1,13 @@
+Source: canaima-info
+Section: metapackages
+Priority: standard
+Maintainer: Jeidi Brito <jeidi.brito@gmail.com>
+Build-Depends: debhelper, cdbs
+Standards-Version: 3.9.5
+Homepage: http://canaima.softwarelibre.gob.ve/
+
+Package: canaima-info
+Architecture: all
+Depends: canaima-llaves (>= 4.0)
+Description: Canaima Info
+ Information about Canaima GNU/Linux

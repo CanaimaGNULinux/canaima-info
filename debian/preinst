@@ -1,0 +1,6 @@
+#!/bin/bash
+rm -f /usr/lib/os-release
+rm -f /etc/os-release
+rm -f /etc/dpkg/origins/default
+#DEBHELPER#
+exit 0

@@ -1,0 +1,5 @@
+#!/bin/bash
+cp -f /etc/os-release /usr/lib/os-release
+ln -sf /etc/dpkg/origins/Canaima /etc/dpkg/origins/default
+#DEBHELPER#
+exit 0
